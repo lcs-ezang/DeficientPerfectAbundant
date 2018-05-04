@@ -13,11 +13,10 @@ var validInput = 0
 
 //Input
 while 0 == 0 {
-    // Get the user input
-    var rawInput = readLine()
 
+    //Get the user input
     //Make sure the input was given (create a String from the String?)
-    guard let givenInput = rawInput else {
+    guard let givenInput = readLine() else {
         //Nil detected, quit
         continue
     }
